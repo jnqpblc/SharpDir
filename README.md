@@ -3,6 +3,7 @@ SharpDir is a simple code set to search both local and remote file systems for f
 
 A big thanks to VladPVS for both his time and code!
 
+[!] WARNING, this code will not throw an error when it fails to connect. This issue is due to both the connection and the symbolic link errors being System.IO.Exceptions. Please validate that your targets SMB is open, first.
 ```
 C:\>SharpDir.exe
 
